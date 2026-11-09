@@ -27,7 +27,7 @@ roughness = st.sidebar.number_input(
     "Rugosidad absoluta ($\\varepsilon$ en mm)", value=0.045, format="%.4f"
 )  # Acero comercial por defecto
 viscosity = st.sidebar.number_input(
-    "Viscosidad cinemática ($\\nu$ en $m^2/s \times 10^{-6}$)",
+    r"Viscosidad cinemática ($\nu$ en $m^2/s \times 10^{-6}$)",
     value=1.004,
     format="%.3f",
 ) * 1e-6
